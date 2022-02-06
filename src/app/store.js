@@ -1,8 +1,14 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import MBAReducer from "../features/MBASlice/MBASlice";
+import MSReducer from "../features/MSSlice/MSSlice";
+import screenProgressReducer from "../features/screenProgressSlice/screenProgressSlice";
+import countryReducer from "../features/countrySlice/countrySlice";
 
-export const store = configureStore({
+export default configureStore({
   reducer: {
-    counter: counterReducer,
+    MBA: MBAReducer,
+    MS: MSReducer,
+    screen: screenProgressReducer,
+    countries: countryReducer,
   },
 });

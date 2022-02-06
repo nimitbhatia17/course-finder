@@ -1,0 +1,36 @@
+{
+  "MBA": {
+    "isSelected": 0,
+    "academics": {
+      "weight": 25,
+      "collegeScore": { "weight": 15, "value": 0 },
+      "relevance": { "weight": 20, "value": 0 },
+      "ugPercentage": { "weight": 25, "value": 0 },
+      "sts": { "weight": 30, "value": 0 }
+    },
+    "work": {
+      "weight": 35,
+      "experience": { "weight": 0, "value": 0 },
+      "leadership": { "weight": 0, "value": 0 },
+      "company": { "weight": 0, "value": 0 },
+      "exptype": { "weight": 0, "value": 0 },
+      "international": { "weight": 0, "value": 0 }
+    },
+    "extra": {
+      "weight": 5,
+      "type": { "weight": 0, "value": 0 },
+      "years": { "weight": 0, "value": 0 },
+      "international": { "weight": 0, "value": 0 }
+    },
+    "volunteer": {
+      "weight": 5,
+      "years": { "weight": 0, "value": 0 },
+      "scale": { "weight": 0, "value": 0 },
+      "relevance": { "weight": 0, "value": 0 }
+    },
+    "sop": { "weight": 20 }
+  },
+  "MS": {
+    "isSelected": 0
+  }
+}

@@ -1,0 +1,49 @@
+.component {
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImg {
+  margin: 10px 0;
+  width: 128px;
+}
+
+.navbarList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+.listItem {
+  margin: 5px 15px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #525252;
+}
+
+.listItem:hover {
+  color: #39b6a1;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.contactList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactIcon {
+  color: #525252;
+  margin: 5px 8px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+}
